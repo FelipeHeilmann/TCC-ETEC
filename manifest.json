@@ -1,0 +1,25 @@
+{
+  "background_color": "#93e7ee",
+  "description": "Um aplicativo para facilitar a denúncia e o resgate de animais abandonados",
+  "dir": "ltr",
+  "display": "fullscreen",
+  "name": "meauche",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "meauche",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [
+    "social"
+  ],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "./assets/images/icone_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "pt"
+}

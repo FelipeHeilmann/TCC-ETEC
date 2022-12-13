@@ -1,0 +1,72 @@
+:root{
+    --main-bg-color: #93E7EE;
+    --black-color: #000000;
+    --white-color: #FFFFFF; 
+}
+
+@font-face {
+    font-family: lemon milk;
+    src: url('../fonts/lemon_milk/LEMONMILK-Regular.otf');
+}
+
+@font-face {
+    font-family: open-sans;
+    src: url('../fonts/open-sans/OpenSans-Regular.ttf');
+}
+
+html, body{
+    background-color: var(--main-bg-color);
+}
+
+.logo{
+    width: 280px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+}
+
+.login-form{
+    width: 96%;
+    height: 450px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: var(--white-color);
+}
+
+.login-form h1{
+    font: normal 30px lemon milk;
+}
+
+.login-form input{
+    width: 200px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.login-form p, a{
+    font: normal 18px;
+    text-align: center;
+    color: var(--black-color);
+}
+
+.login-form button{
+    width: 150px;
+    height: 40px;
+    background-color: var(--main-bg-color);
+    font-size: 22px;
+    margin:  20px 0 30px 0 ;
+    border: 1px solid var(--black-color);
+    font: normal 25px lemon milk;
+    cursor: pointer;
+}
+

@@ -1,0 +1,73 @@
+:root{
+    --main-bg-color: #93E7EE;
+    --black-color: #000000;
+    --white-color: #FFFFFF; 
+}
+
+@font-face {
+    font-family: lemon milk;
+    src: url('../fonts/lemon_milk/LEMONMILK-Regular.otf');
+}
+
+html,body{
+    background-color: var(--main-bg-color);
+}
+
+.logo{
+    width: 280px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+}
+
+.register-form{
+    width: 96%;
+    height: 520px;
+    margin: 10px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--black-color);
+    border-radius: 10px;
+    background-color: var(--white-color);
+}
+
+.register-form h1{
+    font: normal 30px lemon milk;
+}
+
+.register-form input{
+    width: 200px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.register-form input[type=password]{
+    margin-bottom:10px;
+}
+
+.register-form p{
+    font: normal 18px Caviar Dreams;
+    text-align: center;
+    color: var(--black-color);
+    margin-bottom: 10px;
+}
+
+.register-form-button{
+    background-color: var(--main-bg-color);
+    font-size: 15px;
+    margin-bottom: 30px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid var(--black-color);
+    font: normal 25px lemon milk;
+    cursor: pointer;
+}
+
+
